@@ -2,9 +2,11 @@
   "name": "adls-node-sample",
   "version": "1.0.0",
   "description": "Sample app for ADLS on node/TypeScript\"",
-  "main": "index.js",
+  "main": "build/adls-sample.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "npm run build && node build/adls-sample.js"
   },
   "author": "",
   "license": "ISC",
