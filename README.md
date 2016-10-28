@@ -7,6 +7,7 @@ Sample nodejs app reading directories and files in Azure DataLake Store (ADLS)
 ```
 git clone https://github.com/davidjenni/adls-node-sample.git
 cd adls-node-sample
+npm install
 gulp build
 ```
 

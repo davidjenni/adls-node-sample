@@ -11,14 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "azure-arm-datalake-store": "^0.4.2",
-    "ms-rest": "^1.15.2",
-    "ms-rest-azure": "^1.15.2"
+    "azure-arm-datalake-store": "0.4.2",
+    "ms-rest": "1.15.2",
+    "ms-rest-azure": "1.15.2"
   },
   "devDependencies": {
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-typescript": "^3.0.2",
-    "typescript": "^2.0.6",
-    "typings": "^1.4.0"
+    "gulp-typescript": "3.0.2",
+    "typescript": "2.0.6",
+    "typings": "1.4.0"
   }
 }
